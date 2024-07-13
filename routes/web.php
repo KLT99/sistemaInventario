@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[AdminController::class,'login'])->name('login');
 
 Route::post('/loginInicio',[AdminController::class,'loginInicio'])->name('loginInicio');
+
+Route::get('/home',[AdminController::class,'home'])->name('home');

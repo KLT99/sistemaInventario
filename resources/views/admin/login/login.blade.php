@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Sign In | Velzon - Admin & Dashboard Template</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -78,7 +78,7 @@
                                 <div class="col-lg-6">
                                     <div class="p-lg-5 p-4">
                                         <div>
-                                            <h5 class="text-primary">Sistema Inventario !</h5>
+                                            <h5 class="text-primary">Sistema Inventario</h5>
                                         </div>
 
                                         <div class="mt-4">
@@ -152,15 +152,15 @@
     <!-- end auth-page-wrapper -->
 
     <!-- JAVASCRIPT -->
-    <script src="{{asset('libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('libs/simplebar/simplebar.min.js')}}"></script>
-    <script src="{{asset('libs/node-waves/waves.min.js')}}"></script>
-    <script src="{{asset('libs/feather-icons/feather.min.js')}}"></script>
-    <script src="{{asset('js/pages/plugins/lord-icon-2.1.0.js')}}"></script>
-    <script src="{{asset('js/plugins.js')}}"></script>
+    <script src="{{ asset('libs/feather-icons/feather.min.js') }}"></script>
+    <script src="{{ asset('libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('libs/simplebar/simplebar.min.js') }}"></script>
+    <script src="{{ asset('libs/node-waves/waves.min.js') }}"></script>
+    <script src="{{ asset('js/pages/plugins/lord-icon-2.1.0.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
 
     <!-- password-addon init -->
-    <script src="{{asset('js/pages/password-addon.init.js')}}"></script>
+    <script src="{{ asset('js/pages/password-addon.init.js') }}"></script>
 </body>
 
 </html>
